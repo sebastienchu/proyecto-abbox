@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    color: #132A3F;
+    position: relative;
+    padding-bottom:  2em;
+    
+}
+
+
+header{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    
+}
+.header_cont{
+    align-items: center;
+    display: flex;
+    gap: 200px;
+    padding: 0.5% 0% 0% 1%;
+    
+}
+nav{
+    display: flex;
+    gap: 90px;
+}
+nav a{
+    text-decoration: none;
+    color: #132A3F;
+    font-family: 'gotham', bold;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.fondo{
+    width: 100%;
+}
+
+footer{
+    background-color:rgba(19,42,63, 1);
+    display: flex;
+    color: #f6f6f6;
+    justify-content: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+
+    
+}
+.footer_cont{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    font-family: 'gotham', bold;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.footer_cont_derechos{
+    display: flex;
+    
+}
+
+.footer_cont_redes{
+    display: flex;
+    gap: 10px;
+        
+    
+}
+
+.footer_cont_redes_icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #132A3F;
+    
+
+}
+.iconrrss{
+    width: 50px;
+    height: 50px;
+}
+
+.footer_cont_contacto{
+     display: flex;
+    
+    
+}
